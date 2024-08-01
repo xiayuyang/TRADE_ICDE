@@ -1,0 +1,1218 @@
+[2024-01-24 01:53:33,866][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-01-24-01-53-33-865654.log
+[2024-01-24 01:53:47,398][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 01:53:47,399][0][INFO][generic_smbo.py:295] Iter 1, objectives: [inf, inf].
+[2024-01-24 01:54:01,042][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '4',
+  'fps_camera3': '2',
+  'fps_camera4': '4',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:54:01,043][0][INFO][generic_smbo.py:295] Iter 2, objectives: [inf, inf].
+[2024-01-24 01:54:11,944][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:54:11,945][0][INFO][generic_smbo.py:295] Iter 3, objectives: [inf, inf].
+[2024-01-24 01:54:22,659][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.8,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 01:54:22,660][0][INFO][generic_smbo.py:295] Iter 4, objectives: [inf, inf].
+[2024-01-24 01:54:33,458][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '2',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.76,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-24 01:54:33,460][0][INFO][generic_smbo.py:295] Iter 5, objectives: [inf, inf].
+[2024-01-24 01:54:43,282][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '4',
+  'fps_camera3': '4',
+  'fps_camera4': '10',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.76,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 01:54:43,283][0][INFO][generic_smbo.py:295] Iter 6, objectives: [inf, inf].
+[2024-01-24 01:54:54,030][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '2',
+  'fps_camera3': '2',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:54:54,031][0][INFO][generic_smbo.py:295] Iter 7, objectives: [inf, inf].
+[2024-01-24 01:55:05,002][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '2',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.82,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-24 01:55:05,002][0][INFO][generic_smbo.py:295] Iter 8, objectives: [inf, inf].
+[2024-01-24 01:55:15,301][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.6,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 01:55:15,302][0][INFO][generic_smbo.py:295] Iter 9, objectives: [inf, inf].
+[2024-01-24 01:55:15,304][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:55:25,285][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.6799999999999999,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-24 01:55:25,286][0][INFO][generic_smbo.py:295] Iter 10, objectives: [inf, inf].
+[2024-01-24 01:55:25,288][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:55:35,315][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '1',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-24 01:55:35,316][0][INFO][generic_smbo.py:295] Iter 11, objectives: [inf, inf].
+[2024-01-24 01:55:35,318][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:55:46,540][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '4',
+  'fps_camera4': '2',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:55:46,541][0][INFO][generic_smbo.py:295] Iter 12, objectives: [inf, inf].
+[2024-01-24 01:55:46,545][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:55:57,669][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '4',
+  'fps_camera3': '10',
+  'fps_camera4': '4',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:55:57,670][0][INFO][generic_smbo.py:295] Iter 13, objectives: [inf, inf].
+[2024-01-24 01:55:57,674][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:56:08,363][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '4',
+  'fps_camera4': '1',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.64,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:56:08,364][0][INFO][generic_smbo.py:295] Iter 14, objectives: [inf, inf].
+[2024-01-24 01:56:08,366][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:56:18,705][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '4',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 01:56:18,706][0][INFO][generic_smbo.py:295] Iter 15, objectives: [inf, inf].
+[2024-01-24 01:56:18,708][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:56:28,774][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '2',
+  'fps_camera4': '4',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:56:28,775][0][INFO][generic_smbo.py:295] Iter 16, objectives: [inf, inf].
+[2024-01-24 01:56:28,776][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:56:38,446][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '10',
+  'fps_camera3': '2',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:56:38,447][0][INFO][generic_smbo.py:295] Iter 17, objectives: [inf, inf].
+[2024-01-24 01:56:38,448][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:56:49,220][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:56:49,221][0][INFO][generic_smbo.py:295] Iter 18, objectives: [inf, inf].
+[2024-01-24 01:56:49,223][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:56:59,267][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '10',
+  'fps_camera3': '2',
+  'fps_camera4': '10',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-24 01:56:59,268][0][INFO][generic_smbo.py:295] Iter 19, objectives: [inf, inf].
+[2024-01-24 01:56:59,269][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-01-24 01:57:10,166][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '2',
+  'fps_camera4': '1',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 01:57:10,167][0][INFO][generic_smbo.py:295] Iter 20, objectives: [inf, inf].
+[2024-01-24 01:57:10,169][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:57:20,182][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.82,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 01:57:20,183][0][INFO][generic_smbo.py:295] Iter 21, objectives: [inf, inf].
+[2024-01-24 01:57:20,185][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:57:30,526][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '2',
+  'fps_camera3': '2',
+  'fps_camera4': '10',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 01:57:30,527][0][INFO][generic_smbo.py:295] Iter 22, objectives: [inf, inf].
+[2024-01-24 01:57:30,529][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:57:40,696][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '4',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-24 01:57:40,697][0][INFO][generic_smbo.py:295] Iter 23, objectives: [inf, inf].
+[2024-01-24 01:57:40,699][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:57:51,722][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '2',
+  'fps_camera4': '4',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-24 01:57:51,723][0][INFO][generic_smbo.py:295] Iter 24, objectives: [inf, inf].
+[2024-01-24 01:57:51,724][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:58:02,282][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '1',
+  'fps_camera3': '2',
+  'fps_camera4': '10',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:58:02,283][0][INFO][generic_smbo.py:295] Iter 25, objectives: [inf, inf].
+[2024-01-24 01:58:02,285][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:58:13,032][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '1',
+  'fps_camera3': '4',
+  'fps_camera4': '4',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 01:58:13,033][0][INFO][generic_smbo.py:295] Iter 26, objectives: [inf, inf].
+[2024-01-24 01:58:13,036][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:58:23,468][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '2',
+  'fps_camera3': '1',
+  'fps_camera4': '4',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.6799999999999999,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 01:58:23,469][0][INFO][generic_smbo.py:295] Iter 27, objectives: [inf, inf].
+[2024-01-24 01:58:23,472][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:58:33,315][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '4',
+  'fps_camera3': '2',
+  'fps_camera4': '4',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.74,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 01:58:33,316][0][INFO][generic_smbo.py:295] Iter 28, objectives: [inf, inf].
+[2024-01-24 01:58:33,319][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:58:43,278][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '4',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.8,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 01:58:43,279][0][INFO][generic_smbo.py:295] Iter 29, objectives: [inf, inf].
+[2024-01-24 01:58:43,282][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:58:52,688][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '2',
+  'fps_camera3': '4',
+  'fps_camera4': '4',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 01:58:52,689][0][INFO][generic_smbo.py:295] Iter 30, objectives: [inf, inf].
+[2024-01-24 01:58:52,691][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:59:04,188][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '2',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.86,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:59:04,189][0][INFO][generic_smbo.py:295] Iter 31, objectives: [inf, inf].
+[2024-01-24 01:59:04,190][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-01-24 01:59:14,574][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '2',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:59:14,575][0][INFO][generic_smbo.py:295] Iter 32, objectives: [inf, inf].
+[2024-01-24 01:59:14,578][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:59:24,020][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '2',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.76,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:59:24,021][0][INFO][generic_smbo.py:295] Iter 33, objectives: [inf, inf].
+[2024-01-24 01:59:24,022][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:59:35,295][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '2',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-24 01:59:35,297][0][INFO][generic_smbo.py:295] Iter 34, objectives: [inf, inf].
+[2024-01-24 01:59:35,298][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-24 01:59:45,819][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 913, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 591, in run_mtmc
+    img_det = np.deepcopy(img)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'deepcopy'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '1',
+  'fps_camera3': '2',
+  'fps_camera4': '2',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 01:59:45,820][0][INFO][generic_smbo.py:295] Iter 35, objectives: [inf, inf].
+[2024-01-24 01:59:45,822][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.

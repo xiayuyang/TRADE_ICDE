@@ -1,0 +1,39 @@
+[2024-01-25 21:30:24,335][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-01-25-21-30-24-331498.log
+[2024-01-25 22:41:30,108][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 88, in multi_camera_matching
+    json.dump(result, file)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-25 22:41:30,109][0][INFO][generic_smbo.py:295] Iter 1, objectives: [inf, inf].

@@ -1,0 +1,1443 @@
+[2024-01-18 09:06:39,012][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-01-18-09-06-39-011826.log
+[2024-01-18 09:06:39,087][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,087][0][INFO][generic_smbo.py:295] Iter 1, objectives: [inf, inf].
+[2024-01-18 09:06:39,087][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '4',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.76,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,088][0][INFO][generic_smbo.py:295] Iter 2, objectives: [inf, inf].
+[2024-01-18 09:06:39,088][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '2',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.84,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,088][0][INFO][generic_smbo.py:295] Iter 3, objectives: [inf, inf].
+[2024-01-18 09:06:39,089][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,089][0][INFO][generic_smbo.py:295] Iter 4, objectives: [inf, inf].
+[2024-01-18 09:06:39,089][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '2',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,090][0][INFO][generic_smbo.py:295] Iter 5, objectives: [inf, inf].
+[2024-01-18 09:06:39,090][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '1',
+  'fps_camera3': '10',
+  'fps_camera4': '4',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,090][0][INFO][generic_smbo.py:295] Iter 6, objectives: [inf, inf].
+[2024-01-18 09:06:39,091][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '4',
+  'fps_camera4': '10',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.64,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,091][0][INFO][generic_smbo.py:295] Iter 7, objectives: [inf, inf].
+[2024-01-18 09:06:39,091][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '4',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,092][0][INFO][generic_smbo.py:295] Iter 8, objectives: [inf, inf].
+[2024-01-18 09:06:39,092][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '2',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.84,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,092][0][INFO][generic_smbo.py:295] Iter 9, objectives: [inf, inf].
+[2024-01-18 09:06:39,093][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,094][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '1',
+  'fps_camera3': '2',
+  'fps_camera4': '1',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,095][0][INFO][generic_smbo.py:295] Iter 10, objectives: [inf, inf].
+[2024-01-18 09:06:39,095][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,096][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '1',
+  'fps_camera3': '2',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.82,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,097][0][INFO][generic_smbo.py:295] Iter 11, objectives: [inf, inf].
+[2024-01-18 09:06:39,097][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,098][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '2',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,099][0][INFO][generic_smbo.py:295] Iter 12, objectives: [inf, inf].
+[2024-01-18 09:06:39,099][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,100][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.74,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,101][0][INFO][generic_smbo.py:295] Iter 13, objectives: [inf, inf].
+[2024-01-18 09:06:39,101][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,102][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '1',
+  'fps_camera3': '10',
+  'fps_camera4': '2',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,102][0][INFO][generic_smbo.py:295] Iter 14, objectives: [inf, inf].
+[2024-01-18 09:06:39,103][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,104][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '2',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.8,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,104][0][INFO][generic_smbo.py:295] Iter 15, objectives: [inf, inf].
+[2024-01-18 09:06:39,105][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,106][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '4',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,106][0][INFO][generic_smbo.py:295] Iter 16, objectives: [inf, inf].
+[2024-01-18 09:06:39,107][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,108][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,108][0][INFO][generic_smbo.py:295] Iter 17, objectives: [inf, inf].
+[2024-01-18 09:06:39,109][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,110][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '4',
+  'fps_camera3': '1',
+  'fps_camera4': '4',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,110][0][INFO][generic_smbo.py:295] Iter 18, objectives: [inf, inf].
+[2024-01-18 09:06:39,111][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,112][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,112][0][INFO][generic_smbo.py:295] Iter 19, objectives: [inf, inf].
+[2024-01-18 09:06:39,113][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,114][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '1',
+  'fps_camera3': '4',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,114][0][INFO][generic_smbo.py:295] Iter 20, objectives: [inf, inf].
+[2024-01-18 09:06:39,114][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,115][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '2',
+  'fps_camera3': '4',
+  'fps_camera4': '2',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,116][0][INFO][generic_smbo.py:295] Iter 21, objectives: [inf, inf].
+[2024-01-18 09:06:39,116][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,117][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '4',
+  'fps_camera3': '2',
+  'fps_camera4': '2',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,118][0][INFO][generic_smbo.py:295] Iter 22, objectives: [inf, inf].
+[2024-01-18 09:06:39,118][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,211][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '1',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,212][0][INFO][generic_smbo.py:295] Iter 23, objectives: [inf, inf].
+[2024-01-18 09:06:39,212][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,213][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '2',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,214][0][INFO][generic_smbo.py:295] Iter 24, objectives: [inf, inf].
+[2024-01-18 09:06:39,214][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,215][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '4',
+  'fps_camera3': '2',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.8,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,216][0][INFO][generic_smbo.py:295] Iter 25, objectives: [inf, inf].
+[2024-01-18 09:06:39,216][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,217][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.6799999999999999,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,218][0][INFO][generic_smbo.py:295] Iter 26, objectives: [inf, inf].
+[2024-01-18 09:06:39,218][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,220][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '1',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.6799999999999999,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,220][0][INFO][generic_smbo.py:295] Iter 27, objectives: [inf, inf].
+[2024-01-18 09:06:39,220][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,224][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '2',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,224][0][INFO][generic_smbo.py:295] Iter 28, objectives: [inf, inf].
+[2024-01-18 09:06:39,224][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,225][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '4',
+  'fps_camera4': '2',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.84,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,226][0][INFO][generic_smbo.py:295] Iter 29, objectives: [inf, inf].
+[2024-01-18 09:06:39,226][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-01-18 09:06:39,227][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '4',
+  'fps_camera3': '4',
+  'fps_camera4': '4',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.8,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,228][0][INFO][generic_smbo.py:295] Iter 30, objectives: [inf, inf].
+[2024-01-18 09:06:39,228][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,229][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '4',
+  'fps_camera3': '10',
+  'fps_camera4': '4',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,230][0][INFO][generic_smbo.py:295] Iter 31, objectives: [inf, inf].
+[2024-01-18 09:06:39,230][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,231][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '4',
+  'fps_camera3': '2',
+  'fps_camera4': '10',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,232][0][INFO][generic_smbo.py:295] Iter 32, objectives: [inf, inf].
+[2024-01-18 09:06:39,232][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,233][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '4',
+  'fps_camera4': '10',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,234][0][INFO][generic_smbo.py:295] Iter 33, objectives: [inf, inf].
+[2024-01-18 09:06:39,234][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,235][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '2',
+  'fps_camera3': '10',
+  'fps_camera4': '2',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.64,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,236][0][INFO][generic_smbo.py:295] Iter 34, objectives: [inf, inf].
+[2024-01-18 09:06:39,236][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,237][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.76,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,238][0][INFO][generic_smbo.py:295] Iter 35, objectives: [inf, inf].
+[2024-01-18 09:06:39,238][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,239][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '1',
+  'fps_camera3': '4',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.64,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,240][0][INFO][generic_smbo.py:295] Iter 36, objectives: [inf, inf].
+[2024-01-18 09:06:39,240][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,241][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '2',
+  'fps_camera4': '10',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.64,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,242][0][INFO][generic_smbo.py:295] Iter 37, objectives: [inf, inf].
+[2024-01-18 09:06:39,242][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,243][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '4',
+  'fps_camera3': '2',
+  'fps_camera4': '4',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.6,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,244][0][INFO][generic_smbo.py:295] Iter 38, objectives: [inf, inf].
+[2024-01-18 09:06:39,244][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,245][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '2',
+  'fps_camera3': '4',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,246][0][INFO][generic_smbo.py:295] Iter 39, objectives: [inf, inf].
+[2024-01-18 09:06:39,246][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,247][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '4',
+  'fps_camera4': '4',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.6,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,248][0][INFO][generic_smbo.py:295] Iter 40, objectives: [inf, inf].
+[2024-01-18 09:06:39,248][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,250][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '4',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.84,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,250][0][INFO][generic_smbo.py:295] Iter 41, objectives: [inf, inf].
+[2024-01-18 09:06:39,250][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,252][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '4',
+  'fps_camera3': '4',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,252][0][INFO][generic_smbo.py:295] Iter 42, objectives: [inf, inf].
+[2024-01-18 09:06:39,252][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,254][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.86,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,254][0][INFO][generic_smbo.py:295] Iter 43, objectives: [inf, inf].
+[2024-01-18 09:06:39,254][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,255][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.6,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,256][0][INFO][generic_smbo.py:295] Iter 44, objectives: [inf, inf].
+[2024-01-18 09:06:39,256][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,257][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '4',
+  'fps_camera3': '1',
+  'fps_camera4': '2',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,258][0][INFO][generic_smbo.py:295] Iter 45, objectives: [inf, inf].
+[2024-01-18 09:06:39,258][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,260][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '1',
+  'fps_camera3': '4',
+  'fps_camera4': '2',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.64,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,260][0][INFO][generic_smbo.py:295] Iter 46, objectives: [inf, inf].
+[2024-01-18 09:06:39,261][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,262][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.6,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,262][0][INFO][generic_smbo.py:295] Iter 47, objectives: [inf, inf].
+[2024-01-18 09:06:39,263][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,264][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '2',
+  'fps_camera4': '10',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-18 09:06:39,264][0][INFO][generic_smbo.py:295] Iter 48, objectives: [inf, inf].
+[2024-01-18 09:06:39,265][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,266][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '4',
+  'fps_camera3': '10',
+  'fps_camera4': '4',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.6,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-18 09:06:39,267][0][INFO][generic_smbo.py:295] Iter 49, objectives: [inf, inf].
+[2024-01-18 09:06:39,267][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-18 09:06:39,268][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id= GPU_ID)
+TypeError: profile() got an unexpected keyword argument 'gpu_id'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-18 09:06:39,269][0][INFO][generic_smbo.py:295] Iter 50, objectives: [inf, inf].
+[2024-01-18 09:06:39,275][0][WARNING][history.py:651] No feasible observations! Return empty pareto.

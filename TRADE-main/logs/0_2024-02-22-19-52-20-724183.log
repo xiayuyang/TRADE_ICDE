@@ -1,0 +1,964 @@
+[2024-02-22 19:52:20,725][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-02-22-19-52-20-724183.log
+[2024-02-22 19:52:20,985][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:21,198][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:21,401][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:21,607][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:21,797][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:22,032][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:22,284][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:22,566][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:22,820][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:23,032][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:23,245][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:23,457][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:23,702][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:23,940][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:24,197][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:24,416][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:24,655][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:24,867][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:25,070][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:25,267][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:25,478][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:25,690][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:25,918][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:26,140][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:26,362][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:26,585][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:26,806][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:27,044][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:27,271][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:27,503][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:27,725][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:27,971][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:28,185][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:28,407][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:28,629][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:28,871][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:29,111][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:29,339][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:29,587][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:29,850][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:30,090][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:30,334][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:30,554][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:30,783][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:31,019][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:31,238][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:31,470][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:31,674][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:31,884][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:32,087][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:32,282][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:32,479][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:32,701][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:32,915][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:33,155][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:33,397][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:33,653][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:33,882][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:34,141][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:34,395][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:34,625][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:34,881][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:35,149][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:35,371][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:35,409][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,409][0][INFO][generic_smbo.py:295] Iter 1, objectives: [inf, inf].
+[2024-02-22 19:52:35,411][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,411][0][INFO][generic_smbo.py:295] Iter 2, objectives: [inf, inf].
+[2024-02-22 19:52:35,412][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,412][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,413][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:35,413][0][INFO][generic_smbo.py:295] Iter 3, objectives: [inf, inf].
+[2024-02-22 19:52:35,414][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,414][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,415][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:35,415][0][INFO][generic_smbo.py:295] Iter 4, objectives: [inf, inf].
+[2024-02-22 19:52:35,416][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,416][0][INFO][generic_smbo.py:295] Iter 5, objectives: [inf, inf].
+[2024-02-22 19:52:35,417][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,418][0][INFO][generic_smbo.py:295] Iter 6, objectives: [inf, inf].
+[2024-02-22 19:52:35,418][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,419][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,419][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:35,419][0][INFO][generic_smbo.py:295] Iter 7, objectives: [inf, inf].
+[2024-02-22 19:52:35,420][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,420][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,421][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:35,421][0][INFO][generic_smbo.py:295] Iter 8, objectives: [inf, inf].
+[2024-02-22 19:52:35,421][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,422][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,422][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:35,422][0][INFO][generic_smbo.py:295] Iter 9, objectives: [inf, inf].
+[2024-02-22 19:52:35,423][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 19:52:35,424][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,424][0][INFO][generic_smbo.py:295] Iter 10, objectives: [inf, inf].
+[2024-02-22 19:52:35,426][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,427][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,427][0][INFO][generic_smbo.py:295] Iter 11, objectives: [inf, inf].
+[2024-02-22 19:52:35,428][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 19:52:35,429][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,429][0][INFO][generic_smbo.py:295] Iter 12, objectives: [inf, inf].
+[2024-02-22 19:52:35,430][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,431][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,431][0][INFO][generic_smbo.py:295] Iter 13, objectives: [inf, inf].
+[2024-02-22 19:52:35,432][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,433][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,433][0][INFO][generic_smbo.py:295] Iter 14, objectives: [inf, inf].
+[2024-02-22 19:52:35,433][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,434][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,435][0][INFO][generic_smbo.py:295] Iter 15, objectives: [inf, inf].
+[2024-02-22 19:52:35,435][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,436][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,437][0][INFO][generic_smbo.py:295] Iter 16, objectives: [inf, inf].
+[2024-02-22 19:52:35,437][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,438][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,439][0][INFO][generic_smbo.py:295] Iter 17, objectives: [inf, inf].
+[2024-02-22 19:52:35,439][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,440][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,441][0][INFO][generic_smbo.py:295] Iter 18, objectives: [inf, inf].
+[2024-02-22 19:52:35,441][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,442][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,443][0][INFO][generic_smbo.py:295] Iter 19, objectives: [inf, inf].
+[2024-02-22 19:52:35,443][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,444][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,445][0][INFO][generic_smbo.py:295] Iter 20, objectives: [inf, inf].
+[2024-02-22 19:52:35,445][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 19:52:35,446][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,447][0][INFO][generic_smbo.py:295] Iter 21, objectives: [inf, inf].
+[2024-02-22 19:52:35,447][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,448][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,448][0][INFO][generic_smbo.py:295] Iter 22, objectives: [inf, inf].
+[2024-02-22 19:52:35,449][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,450][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,451][0][INFO][generic_smbo.py:295] Iter 23, objectives: [inf, inf].
+[2024-02-22 19:52:35,451][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,452][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,453][0][INFO][generic_smbo.py:295] Iter 24, objectives: [inf, inf].
+[2024-02-22 19:52:35,453][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,454][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,455][0][INFO][generic_smbo.py:295] Iter 25, objectives: [inf, inf].
+[2024-02-22 19:52:35,455][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,457][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,458][0][INFO][generic_smbo.py:295] Iter 26, objectives: [inf, inf].
+[2024-02-22 19:52:35,458][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,459][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,460][0][INFO][generic_smbo.py:295] Iter 27, objectives: [inf, inf].
+[2024-02-22 19:52:35,460][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 19:52:35,461][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,461][0][INFO][generic_smbo.py:295] Iter 28, objectives: [inf, inf].
+[2024-02-22 19:52:35,462][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,463][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,463][0][INFO][generic_smbo.py:295] Iter 29, objectives: [inf, inf].
+[2024-02-22 19:52:35,464][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,465][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,466][0][INFO][generic_smbo.py:295] Iter 30, objectives: [inf, inf].
+[2024-02-22 19:52:35,466][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,467][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,468][0][INFO][generic_smbo.py:295] Iter 31, objectives: [inf, inf].
+[2024-02-22 19:52:35,468][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,469][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,470][0][INFO][generic_smbo.py:295] Iter 32, objectives: [inf, inf].
+[2024-02-22 19:52:35,470][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,471][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,472][0][INFO][generic_smbo.py:295] Iter 33, objectives: [inf, inf].
+[2024-02-22 19:52:35,472][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,474][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:35,474][0][INFO][generic_smbo.py:295] Iter 34, objectives: [inf, inf].
+[2024-02-22 19:52:35,475][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,476][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,477][0][INFO][generic_smbo.py:295] Iter 35, objectives: [inf, inf].
+[2024-02-22 19:52:35,477][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 19:52:35,479][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,479][0][INFO][generic_smbo.py:295] Iter 36, objectives: [inf, inf].
+[2024-02-22 19:52:35,480][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,481][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,482][0][INFO][generic_smbo.py:295] Iter 37, objectives: [inf, inf].
+[2024-02-22 19:52:35,482][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,488][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,488][0][INFO][generic_smbo.py:295] Iter 38, objectives: [inf, inf].
+[2024-02-22 19:52:35,489][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 19:52:35,493][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,494][0][INFO][generic_smbo.py:295] Iter 39, objectives: [inf, inf].
+[2024-02-22 19:52:35,494][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,498][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,498][0][INFO][generic_smbo.py:295] Iter 40, objectives: [inf, inf].
+[2024-02-22 19:52:35,499][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 19:52:35,501][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,501][0][INFO][generic_smbo.py:295] Iter 41, objectives: [inf, inf].
+[2024-02-22 19:52:35,502][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,747][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:35,747][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,748][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:35,748][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:35,748][0][INFO][generic_smbo.py:295] Iter 42, objectives: [inf, inf].
+[2024-02-22 19:52:35,750][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:35,987][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:35,988][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,989][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:35,989][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:35,989][0][INFO][generic_smbo.py:295] Iter 43, objectives: [inf, inf].
+[2024-02-22 19:52:35,990][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:36,243][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:36,244][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:36,245][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:36,245][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:36,245][0][INFO][generic_smbo.py:295] Iter 44, objectives: [inf, inf].
+[2024-02-22 19:52:36,246][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:36,493][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:36,494][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:36,495][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:36,495][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:36,495][0][INFO][generic_smbo.py:295] Iter 45, objectives: [inf, inf].
+[2024-02-22 19:52:36,496][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:36,733][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:36,734][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:36,734][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:36,735][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:36,735][0][INFO][generic_smbo.py:295] Iter 46, objectives: [inf, inf].
+[2024-02-22 19:52:36,736][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:36,978][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:36,978][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:36,979][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:52:36,979][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:36,980][0][INFO][generic_smbo.py:295] Iter 47, objectives: [inf, inf].
+[2024-02-22 19:52:36,980][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:37,211][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:37,211][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:37,212][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:37,213][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:37,213][0][INFO][generic_smbo.py:295] Iter 48, objectives: [inf, inf].
+[2024-02-22 19:52:37,214][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:37,444][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:37,445][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:37,446][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:52:37,446][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:37,446][0][INFO][generic_smbo.py:295] Iter 49, objectives: [inf, inf].
+[2024-02-22 19:52:37,447][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:52:37,679][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:52:37,680][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:37,680][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+TypeError: profile() missing 1 required positional argument: 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:52:37,681][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:52:37,681][0][INFO][generic_smbo.py:295] Iter 50, objectives: [inf, inf].
+[2024-02-22 19:52:37,696][0][WARNING][history.py:651] No feasible observations! Return empty pareto.

@@ -1,0 +1,290 @@
+[2024-01-23 16:59:50,660][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-01-23-16-59-50-660012.log
+[2024-01-23 17:25:55,988][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 81, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 897, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 878, in run_mtmc
+    with open(detnum_write, "a") as detnum_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'town5/c001_detnum.txt'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-23 17:25:55,992][0][INFO][generic_smbo.py:295] Iter 1, objectives: [inf, inf].
+[2024-01-23 17:37:56,926][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 81, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 897, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 878, in run_mtmc
+    with open(detnum_write, "a") as detnum_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'town5/c001_detnum.txt'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '2',
+  'fps_camera3': '4',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.6799999999999999,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-23 17:37:56,928][0][INFO][generic_smbo.py:295] Iter 2, objectives: [inf, inf].
+[2024-01-23 17:53:28,485][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 81, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 897, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 878, in run_mtmc
+    with open(detnum_write, "a") as detnum_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'town5/c001_detnum.txt'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '4',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-23 17:53:28,490][0][INFO][generic_smbo.py:295] Iter 3, objectives: [inf, inf].
+[2024-01-23 18:22:36,591][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 81, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 897, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 878, in run_mtmc
+    with open(detnum_write, "a") as detnum_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'town5/c001_detnum.txt'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '1',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-23 18:22:36,596][0][INFO][generic_smbo.py:295] Iter 4, objectives: [inf, inf].
+[2024-01-23 18:43:30,763][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 81, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 897, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 878, in run_mtmc
+    with open(detnum_write, "a") as detnum_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'town5/c001_detnum.txt'
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-23 18:43:30,774][0][INFO][generic_smbo.py:295] Iter 5, objectives: [inf, inf].
+[2024-01-23 18:43:45,678][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 81, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 897, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 788, in run_mtmc
+    gt_detect[cam][matched_tid] = {}
+UnboundLocalError: local variable 'matched_tid' referenced before assignment
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.82,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-23 18:43:45,680][0][INFO][generic_smbo.py:295] Iter 6, objectives: [inf, inf].
+[2024-01-23 18:57:05,868][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 81, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 897, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 878, in run_mtmc
+    with open(detnum_write, "a") as detnum_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'town5/c001_detnum.txt'
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.8,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-23 18:57:05,873][0][INFO][generic_smbo.py:295] Iter 7, objectives: [inf, inf].
+[2024-01-23 19:22:40,441][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 81, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 897, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 878, in run_mtmc
+    with open(detnum_write, "a") as detnum_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'town5/c001_detnum.txt'
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '1',
+  'fps_camera3': '2',
+  'fps_camera4': '4',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-23 19:22:40,446][0][INFO][generic_smbo.py:295] Iter 8, objectives: [inf, inf].
+[2024-01-23 19:42:29,194][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 81, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 897, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 878, in run_mtmc
+    with open(detnum_write, "a") as detnum_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'town5/c001_detnum.txt'
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-23 19:42:29,200][0][INFO][generic_smbo.py:295] Iter 9, objectives: [inf, inf].
+[2024-01-23 19:42:29,202][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.

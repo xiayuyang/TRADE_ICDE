@@ -1,0 +1,35 @@
+[2024-01-24 20:10:11,137][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-01-24-20-10-11-136891.log
+[2024-01-24 20:51:43,396][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 923, in profile
+    precision, recall, f1 = mot_metrics(gt_detect[cam], gt_dict[cam])
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 395, in mot_metrics
+    match_res = filter_res(match_tids[1:])
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 353, in filter_res
+    ts_tid, gt_tid, start_point, end_point, frame_cnt, avg_iou = item
+ValueError: too many values to unpack (expected 6)
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-24 20:51:43,397][0][INFO][generic_smbo.py:295] Iter 1, objectives: [inf, inf].

@@ -1,0 +1,1065 @@
+[2024-02-23 05:12:40,922][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-02-23-05-12-40-921640.log
+[2024-02-23 05:12:41,107][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:41,261][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:41,416][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:41,590][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:41,750][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:41,895][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:42,042][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:42,188][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:42,333][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:42,477][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:42,617][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:42,761][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:42,903][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:43,054][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:43,200][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:43,344][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:43,490][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:43,631][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:43,771][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:43,919][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:44,064][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:44,204][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:44,344][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:44,484][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:44,644][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:44,806][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:44,965][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:45,105][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:45,246][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:45,386][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:45,553][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:45,710][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:45,851][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:45,991][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:46,132][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:46,286][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:46,428][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:46,569][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:46,710][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:46,851][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:46,994][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:47,134][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:47,275][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:47,420][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:47,562][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:47,703][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:47,844][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:47,989][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:48,131][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:48,272][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:48,413][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:48,554][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:48,695][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:48,836][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:48,979][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:49,121][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:49,280][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:49,424][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:49,565][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:49,707][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:49,851][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:50,002][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:50,147][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:12:50,288][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 05:17:35,740][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 05:17:35,742][0][INFO][generic_smbo.py:295] Iter 1, objectives: [inf, inf].
+[2024-02-23 05:19:14,139][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:19:14,139][0][INFO][generic_smbo.py:295] Iter 2, objectives: [inf, inf].
+[2024-02-23 05:19:14,141][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:21:16,909][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:21:16,910][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 05:21:16,911][0][INFO][generic_smbo.py:295] Iter 3, objectives: [inf, inf].
+[2024-02-23 05:21:16,912][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:23:19,876][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:23:19,877][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 05:23:19,878][0][INFO][generic_smbo.py:295] Iter 4, objectives: [inf, inf].
+[2024-02-23 05:30:12,415][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:30:12,415][0][INFO][generic_smbo.py:295] Iter 5, objectives: [inf, inf].
+[2024-02-23 05:31:33,772][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 05:31:33,776][0][INFO][generic_smbo.py:295] Iter 6, objectives: [inf, inf].
+[2024-02-23 05:31:33,778][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:38:08,395][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:38:08,395][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 05:38:08,396][0][INFO][generic_smbo.py:295] Iter 7, objectives: [inf, inf].
+[2024-02-23 05:38:08,396][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:44:19,810][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:44:19,811][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 05:44:19,811][0][INFO][generic_smbo.py:295] Iter 8, objectives: [inf, inf].
+[2024-02-23 05:47:47,620][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:47:47,621][0][INFO][generic_smbo.py:295] Iter 9, objectives: [inf, inf].
+[2024-02-23 05:47:47,637][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 05:53:47,081][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:53:47,083][0][INFO][generic_smbo.py:295] Iter 10, objectives: [inf, inf].
+[2024-02-23 05:53:47,084][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 05:55:16,626][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 05:55:16,627][0][INFO][generic_smbo.py:295] Iter 11, objectives: [inf, inf].
+[2024-02-23 05:55:16,628][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 05:57:20,445][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:57:20,446][0][INFO][generic_smbo.py:295] Iter 12, objectives: [inf, inf].
+[2024-02-23 05:57:20,447][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 05:59:37,186][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 05:59:37,187][0][INFO][generic_smbo.py:295] Iter 13, objectives: [inf, inf].
+[2024-02-23 05:59:37,189][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:05:08,229][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 06:05:08,230][0][INFO][generic_smbo.py:295] Iter 14, objectives: [inf, inf].
+[2024-02-23 06:05:08,231][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:07:10,655][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 06:07:10,656][0][INFO][generic_smbo.py:295] Iter 15, objectives: [inf, inf].
+[2024-02-23 06:07:10,657][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:10:12,462][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 06:10:12,464][0][INFO][generic_smbo.py:295] Iter 16, objectives: [inf, inf].
+[2024-02-23 06:10:12,465][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:12:10,362][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 06:12:10,362][0][INFO][generic_smbo.py:295] Iter 17, objectives: [inf, inf].
+[2024-02-23 06:12:10,364][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:18:05,205][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 06:18:05,205][0][INFO][generic_smbo.py:295] Iter 18, objectives: [inf, inf].
+[2024-02-23 06:18:05,206][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:20:14,919][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 06:20:14,920][0][INFO][generic_smbo.py:295] Iter 19, objectives: [inf, inf].
+[2024-02-23 06:20:14,921][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:25:36,006][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 06:25:36,007][0][INFO][generic_smbo.py:295] Iter 20, objectives: [inf, inf].
+[2024-02-23 06:25:36,009][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:31:46,331][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 06:31:46,331][0][INFO][generic_smbo.py:295] Iter 21, objectives: [inf, inf].
+[2024-02-23 06:31:46,332][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:34:20,346][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 06:34:20,347][0][INFO][generic_smbo.py:295] Iter 22, objectives: [inf, inf].
+[2024-02-23 06:34:20,349][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:37:24,703][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 06:37:24,705][0][INFO][generic_smbo.py:295] Iter 23, objectives: [inf, inf].
+[2024-02-23 06:37:24,706][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:40:41,348][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 06:40:41,349][0][INFO][generic_smbo.py:295] Iter 24, objectives: [inf, inf].
+[2024-02-23 06:40:41,351][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:44:13,163][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 06:44:13,164][0][INFO][generic_smbo.py:295] Iter 25, objectives: [inf, inf].
+[2024-02-23 06:44:13,166][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:46:14,594][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 06:46:14,595][0][INFO][generic_smbo.py:295] Iter 26, objectives: [inf, inf].
+[2024-02-23 06:46:14,596][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:47:37,501][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 06:47:37,502][0][INFO][generic_smbo.py:295] Iter 27, objectives: [inf, inf].
+[2024-02-23 06:47:37,503][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:50:12,632][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 06:50:12,633][0][INFO][generic_smbo.py:295] Iter 28, objectives: [inf, inf].
+[2024-02-23 06:50:12,635][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:53:37,854][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 06:53:37,855][0][INFO][generic_smbo.py:295] Iter 29, objectives: [inf, inf].
+[2024-02-23 06:53:37,856][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:57:02,258][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 06:57:02,259][0][INFO][generic_smbo.py:295] Iter 30, objectives: [inf, inf].
+[2024-02-23 06:57:02,261][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 06:58:59,615][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 06:58:59,616][0][INFO][generic_smbo.py:295] Iter 31, objectives: [inf, inf].
+[2024-02-23 06:58:59,618][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:05:19,883][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 07:05:19,884][0][INFO][generic_smbo.py:295] Iter 32, objectives: [inf, inf].
+[2024-02-23 07:05:19,885][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:11:00,226][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 07:11:00,226][0][INFO][generic_smbo.py:295] Iter 33, objectives: [inf, inf].
+[2024-02-23 07:11:00,227][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:12:29,439][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 07:12:29,440][0][INFO][generic_smbo.py:295] Iter 34, objectives: [inf, inf].
+[2024-02-23 07:12:29,442][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:14:31,702][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 07:14:31,703][0][INFO][generic_smbo.py:295] Iter 35, objectives: [inf, inf].
+[2024-02-23 07:14:31,704][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:16:56,221][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 07:16:56,221][0][INFO][generic_smbo.py:295] Iter 36, objectives: [inf, inf].
+[2024-02-23 07:16:56,223][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:20:06,770][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 07:20:06,771][0][INFO][generic_smbo.py:295] Iter 37, objectives: [inf, inf].
+[2024-02-23 07:20:06,772][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:21:48,848][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 07:21:48,849][0][INFO][generic_smbo.py:295] Iter 38, objectives: [inf, inf].
+[2024-02-23 07:21:48,850][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:23:37,203][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 07:23:37,204][0][INFO][generic_smbo.py:295] Iter 39, objectives: [inf, inf].
+[2024-02-23 07:23:37,206][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:25:37,769][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 07:25:37,770][0][INFO][generic_smbo.py:295] Iter 40, objectives: [inf, inf].
+[2024-02-23 07:25:37,771][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:25:37,925][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 07:25:37,925][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 07:28:05,515][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 07:28:05,516][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 07:28:05,516][0][INFO][generic_smbo.py:295] Iter 41, objectives: [inf, inf].
+[2024-02-23 07:28:05,517][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:28:05,654][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 07:28:05,654][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 07:31:10,884][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 07:31:10,886][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 07:31:10,886][0][INFO][generic_smbo.py:295] Iter 42, objectives: [inf, inf].
+[2024-02-23 07:31:10,888][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:31:11,036][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 07:31:11,037][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 07:32:36,104][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 07:32:36,105][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 07:32:36,106][0][INFO][generic_smbo.py:295] Iter 43, objectives: [inf, inf].
+[2024-02-23 07:32:36,107][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:32:36,266][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 07:32:36,266][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 07:34:35,101][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 07:34:35,102][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 07:34:35,102][0][INFO][generic_smbo.py:295] Iter 44, objectives: [inf, inf].
+[2024-02-23 07:34:35,103][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:34:35,259][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 07:34:35,259][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 07:36:53,071][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 07:36:53,072][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 07:36:53,072][0][INFO][generic_smbo.py:295] Iter 45, objectives: [inf, inf].
+[2024-02-23 07:36:53,074][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:37:04,162][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 07:37:04,163][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 07:40:33,337][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 07:40:33,338][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 07:40:33,338][0][INFO][generic_smbo.py:295] Iter 46, objectives: [inf, inf].
+[2024-02-23 07:40:33,339][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:40:33,491][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 07:40:33,491][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 07:42:47,169][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-23 07:42:47,170][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 07:42:47,170][0][INFO][generic_smbo.py:295] Iter 47, objectives: [inf, inf].
+[2024-02-23 07:42:47,171][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:42:47,328][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 07:42:47,328][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 07:44:49,869][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 07:44:49,870][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 07:44:49,870][0][INFO][generic_smbo.py:295] Iter 48, objectives: [inf, inf].
+[2024-02-23 07:44:49,872][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:44:50,027][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 07:44:50,027][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 07:50:59,765][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-23 07:50:59,765][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 07:50:59,765][0][INFO][generic_smbo.py:295] Iter 49, objectives: [inf, inf].
+[2024-02-23 07:50:59,766][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-23 07:50:59,912][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-23 07:50:59,912][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 07:56:54,449][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 795, in profile
+    for frame, frame_data in mm_data[cam].items():
+KeyError: 'c004'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-23 07:56:54,450][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-23 07:56:54,450][0][INFO][generic_smbo.py:295] Iter 50, objectives: [inf, inf].
+[2024-02-23 07:56:54,456][0][WARNING][history.py:651] No feasible observations! Return empty pareto.

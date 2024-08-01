@@ -1,0 +1,133 @@
+[2024-01-26 23:44:38,378][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-01-26-23-44-38-377853.log
+[2024-01-27 00:03:48,232][0][INFO][generic_smbo.py:295] Iter 1, objectives: [0.5790614672835785, -0.013139025337166257].
+[2024-01-27 00:11:18,587][0][INFO][generic_smbo.py:295] Iter 2, objectives: [0.36748792827965227, -0.0991454502609041].
+[2024-01-27 00:25:54,034][0][INFO][generic_smbo.py:295] Iter 3, objectives: [0.44525837102787336, -0.047213487790690525].
+[2024-01-27 00:39:25,133][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 923, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 822, in run_mtmc
+    mm_data[cam][i]['detections'].append([matched_tid,x,y,w,h])
+KeyError: 1150
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.76,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-27 00:39:25,139][0][INFO][generic_smbo.py:295] Iter 4, objectives: [inf, inf].
+[2024-01-27 00:55:47,818][0][INFO][generic_smbo.py:295] Iter 5, objectives: [0.4174643123820233, -0.0413152406613032].
+[2024-01-27 01:10:11,747][0][INFO][generic_smbo.py:295] Iter 6, objectives: [0.4686059049609306, -0.05428593748145633].
+[2024-01-27 01:26:52,941][0][INFO][generic_smbo.py:295] Iter 7, objectives: [0.43599875180077163, -0.03492698623074426].
+[2024-01-27 01:47:32,882][0][INFO][generic_smbo.py:295] Iter 8, objectives: [0.3816457603112344, -0.009615860813193851].
+[2024-01-27 02:05:23,859][0][INFO][generic_smbo.py:295] Iter 9, objectives: [0.336003050267876, -0.030757278501987458].
+[2024-01-27 02:05:23,860][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-27 02:21:21,015][0][INFO][generic_smbo.py:295] Iter 10, objectives: [0.5119026763681178, -0.04082615862290064].
+[2024-01-27 02:43:27,970][0][INFO][generic_smbo.py:295] Iter 11, objectives: [0.4101905646038584, -0.0002925849954287211].
+[2024-01-27 02:57:13,142][0][INFO][generic_smbo.py:295] Iter 12, objectives: [0.49754075584706015, -0.05750635657045576].
+[2024-01-27 03:13:20,896][0][INFO][generic_smbo.py:295] Iter 13, objectives: [0.34584231868619053, -0.04338180214166641].
+[2024-01-27 03:23:34,672][0][INFO][generic_smbo.py:295] Iter 14, objectives: [0.3446208520648675, -0.083989839984311].
+[2024-01-27 03:32:15,171][0][INFO][generic_smbo.py:295] Iter 15, objectives: [0.3786740493581149, -0.09364839014079836].
+[2024-01-27 03:47:23,468][0][INFO][generic_smbo.py:295] Iter 16, objectives: [0.3723112264612203, -0.04858930587768555].
+[2024-01-27 03:58:25,005][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 923, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 822, in run_mtmc
+    mm_data[cam][i]['detections'].append([matched_tid,x,y,w,h])
+KeyError: 1146
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '4',
+  'fps_camera3': '4',
+  'fps_camera4': '10',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-27 03:58:25,010][0][INFO][generic_smbo.py:295] Iter 17, objectives: [inf, inf].
+[2024-01-27 04:11:23,433][0][INFO][generic_smbo.py:295] Iter 18, objectives: [0.400949021636122, -0.064243692987495].
+[2024-01-27 04:23:25,071][0][INFO][generic_smbo.py:295] Iter 19, objectives: [0.33697729335052595, -0.07075645403729544].
+[2024-01-27 04:41:30,848][0][INFO][generic_smbo.py:295] Iter 20, objectives: [0.3522718927245563, -0.02763665219148].
+[2024-01-27 04:55:58,040][0][INFO][generic_smbo.py:295] Iter 21, objectives: [0.34140339906923034, -0.056280773911211224].
+[2024-01-27 05:15:07,468][0][INFO][generic_smbo.py:295] Iter 22, objectives: [0.34228205373602705, -0.023249000244670442].
+[2024-01-27 05:15:07,468][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-01-27 05:32:15,767][0][INFO][generic_smbo.py:295] Iter 23, objectives: [0.315683648972932, -0.036392621265517344].
+[2024-01-27 05:42:57,907][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 923, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 822, in run_mtmc
+    mm_data[cam][i]['detections'].append([matched_tid,x,y,w,h])
+KeyError: 1150
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '1',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-27 05:42:57,911][0][INFO][generic_smbo.py:295] Iter 24, objectives: [inf, inf].
+[2024-01-27 05:57:46,989][0][INFO][generic_smbo.py:295] Iter 25, objectives: [0.3493279403696048, -0.05379057308038076].
+[2024-01-27 06:14:01,181][0][INFO][generic_smbo.py:295] Iter 26, objectives: [0.3126346689448374, -0.043236724105146195].
+[2024-01-27 06:37:21,603][0][INFO][generic_smbo.py:295] Iter 27, objectives: [0.31340552063943716, 0.006584144996272193].
+[2024-01-27 06:51:34,573][0][INFO][generic_smbo.py:295] Iter 28, objectives: [0.3227534332748142, -0.05337302499347263].
+[2024-01-27 06:51:34,574][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-01-27 07:17:09,435][0][INFO][generic_smbo.py:295] Iter 29, objectives: [0.3851119086315242, 0.023947666883468628].
+[2024-01-27 07:17:09,435][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-01-27 07:36:56,615][0][INFO][generic_smbo.py:295] Iter 30, objectives: [0.39746375906175424, -0.011668359802828895].
+[2024-01-27 07:50:38,974][0][INFO][generic_smbo.py:295] Iter 31, objectives: [0.3166750785358585, -0.062453866435421834].
+[2024-01-27 08:06:09,385][0][INFO][generic_smbo.py:295] Iter 32, objectives: [0.30657878607073763, -0.04871702214082082].
+[2024-01-27 08:22:24,425][0][INFO][generic_smbo.py:295] Iter 33, objectives: [0.308820673130876, -0.04349289602703518].
+[2024-01-27 08:37:16,445][0][INFO][generic_smbo.py:295] Iter 34, objectives: [0.3439003473832295, -0.05124200115601222].
+[2024-01-27 08:51:38,070][0][INFO][generic_smbo.py:295] Iter 35, objectives: [0.3051364898851078, -0.05649462868769964].

@@ -1,0 +1,84 @@
+[2024-02-22 20:48:56,288][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-02-22-20-48-56-287663.log
+[2024-02-22 20:48:56,545][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:56,763][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:57,002][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:57,213][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:57,425][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:57,623][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:57,837][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:58,045][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:58,266][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:58,502][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:58,729][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:58,941][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:59,149][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:59,367][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:59,591][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:48:59,823][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:00,073][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:00,238][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:00,440][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:00,694][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:00,940][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:01,191][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:01,418][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:01,681][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:01,900][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:02,146][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:02,390][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:02,655][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:02,908][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:03,136][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:03,390][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:03,632][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:03,861][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:04,114][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:04,339][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:04,590][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:04,834][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:05,071][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:05,327][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:05,566][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:05,820][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:06,066][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:06,303][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:06,554][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:06,779][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:07,030][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:07,277][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:07,498][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:07,753][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:07,968][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:08,220][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:08,466][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:08,708][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:08,963][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:09,211][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:09,424][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:09,629][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:09,823][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:10,052][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:10,305][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:10,531][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:10,797][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:11,051][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:11,331][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 20:49:34,486][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 739, in run_mtmc
+    mm_data[cam][i]['detections'].append([g_tid,x,y,w,h])
+KeyError: 'c002'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 20:49:34,487][0][INFO][generic_smbo.py:295] Iter 1, objectives: [inf, inf].

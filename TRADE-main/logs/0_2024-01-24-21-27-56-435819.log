@@ -1,0 +1,34 @@
+[2024-01-24 21:27:56,436][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-01-24-21-27-56-435819.log
+[2024-01-24 22:02:10,779][0][INFO][generic_smbo.py:295] Iter 1, objectives: [0.8265547034737056, 0.0465764151679145].
+[2024-01-24 22:40:42,922][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 80, in multi_camera_matching
+    accuracy, processing_time = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 923, in profile
+    camera_num = len(cams)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 412, in mot_metrics
+    f1_score = 200 * recall * precision / (precision + recall)
+ZeroDivisionError: float division by zero
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '640',
+})
+
+[2024-01-24 22:40:42,936][0][INFO][generic_smbo.py:295] Iter 2, objectives: [inf, inf].

@@ -1,0 +1,4 @@
+[2024-03-28 23:07:26,374][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-03-28-23-07-26-374229.log
+[2024-03-28 23:19:08,743][0][INFO][generic_smbo.py:295] Iter 1, objectives: [0.36016198754532014, 0.024254360229541094].
+[2024-03-28 23:23:23,436][0][INFO][generic_smbo.py:295] Iter 2, objectives: [0.4219876056580064, -0.028204845373447123].
+[2024-03-28 23:36:14,424][0][INFO][generic_smbo.py:295] Iter 3, objectives: [0.4277093898944312, 0.0320355386306078].

@@ -1,0 +1,843 @@
+[2024-02-22 18:44:28,142][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-02-22-18-44-28-141256.log
+[2024-02-22 18:44:28,214][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,215][0][INFO][generic_smbo.py:295] Iter 1, objectives: [inf, inf].
+[2024-02-22 18:44:28,216][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.88,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,216][0][INFO][generic_smbo.py:295] Iter 2, objectives: [inf, inf].
+[2024-02-22 18:44:28,217][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,218][0][INFO][generic_smbo.py:295] Iter 3, objectives: [inf, inf].
+[2024-02-22 18:44:28,219][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,219][0][INFO][generic_smbo.py:295] Iter 4, objectives: [inf, inf].
+[2024-02-22 18:44:28,220][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'lazy_threshold': 0.78,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,221][0][INFO][generic_smbo.py:295] Iter 5, objectives: [inf, inf].
+[2024-02-22 18:44:28,221][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'lazy_threshold': 0.84,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,222][0][INFO][generic_smbo.py:295] Iter 6, objectives: [inf, inf].
+[2024-02-22 18:44:28,223][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.88,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,223][0][INFO][generic_smbo.py:295] Iter 7, objectives: [inf, inf].
+[2024-02-22 18:44:28,224][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'lazy_threshold': 0.88,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,224][0][INFO][generic_smbo.py:295] Iter 8, objectives: [inf, inf].
+[2024-02-22 18:44:28,225][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,226][0][INFO][generic_smbo.py:295] Iter 9, objectives: [inf, inf].
+[2024-02-22 18:44:28,227][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,229][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.86,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,229][0][INFO][generic_smbo.py:295] Iter 10, objectives: [inf, inf].
+[2024-02-22 18:44:28,230][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,231][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.74,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,231][0][INFO][generic_smbo.py:295] Iter 11, objectives: [inf, inf].
+[2024-02-22 18:44:28,232][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,233][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'lazy_threshold': 0.6,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,233][0][INFO][generic_smbo.py:295] Iter 12, objectives: [inf, inf].
+[2024-02-22 18:44:28,234][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,235][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,235][0][INFO][generic_smbo.py:295] Iter 13, objectives: [inf, inf].
+[2024-02-22 18:44:28,236][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 18:44:28,237][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,237][0][INFO][generic_smbo.py:295] Iter 14, objectives: [inf, inf].
+[2024-02-22 18:44:28,237][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,238][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.78,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,239][0][INFO][generic_smbo.py:295] Iter 15, objectives: [inf, inf].
+[2024-02-22 18:44:28,239][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,240][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'lazy_threshold': 0.6799999999999999,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,241][0][INFO][generic_smbo.py:295] Iter 16, objectives: [inf, inf].
+[2024-02-22 18:44:28,241][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,242][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'lazy_threshold': 0.76,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,243][0][INFO][generic_smbo.py:295] Iter 17, objectives: [inf, inf].
+[2024-02-22 18:44:28,243][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 18:44:28,244][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'lazy_threshold': 0.82,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,244][0][INFO][generic_smbo.py:295] Iter 18, objectives: [inf, inf].
+[2024-02-22 18:44:28,245][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,246][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.62,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,246][0][INFO][generic_smbo.py:295] Iter 19, objectives: [inf, inf].
+[2024-02-22 18:44:28,247][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,248][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'lazy_threshold': 0.84,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,248][0][INFO][generic_smbo.py:295] Iter 20, objectives: [inf, inf].
+[2024-02-22 18:44:28,249][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,250][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'lazy_threshold': 0.76,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,250][0][INFO][generic_smbo.py:295] Iter 21, objectives: [inf, inf].
+[2024-02-22 18:44:28,251][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,252][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.86,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,252][0][INFO][generic_smbo.py:295] Iter 22, objectives: [inf, inf].
+[2024-02-22 18:44:28,253][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,255][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.74,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,255][0][INFO][generic_smbo.py:295] Iter 23, objectives: [inf, inf].
+[2024-02-22 18:44:28,256][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 18:44:28,257][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,258][0][INFO][generic_smbo.py:295] Iter 24, objectives: [inf, inf].
+[2024-02-22 18:44:28,258][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,260][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'lazy_threshold': 0.64,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,260][0][INFO][generic_smbo.py:295] Iter 25, objectives: [inf, inf].
+[2024-02-22 18:44:28,261][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,263][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'lazy_threshold': 0.76,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,264][0][INFO][generic_smbo.py:295] Iter 26, objectives: [inf, inf].
+[2024-02-22 18:44:28,264][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,266][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'lazy_threshold': 0.7,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,266][0][INFO][generic_smbo.py:295] Iter 27, objectives: [inf, inf].
+[2024-02-22 18:44:28,267][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,269][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.7,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,269][0][INFO][generic_smbo.py:295] Iter 28, objectives: [inf, inf].
+[2024-02-22 18:44:28,270][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,272][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.72,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,272][0][INFO][generic_smbo.py:295] Iter 29, objectives: [inf, inf].
+[2024-02-22 18:44:28,273][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 18:44:28,274][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.72,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,275][0][INFO][generic_smbo.py:295] Iter 30, objectives: [inf, inf].
+[2024-02-22 18:44:28,276][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,277][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.72,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,277][0][INFO][generic_smbo.py:295] Iter 31, objectives: [inf, inf].
+[2024-02-22 18:44:28,278][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,279][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.74,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,279][0][INFO][generic_smbo.py:295] Iter 32, objectives: [inf, inf].
+[2024-02-22 18:44:28,280][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,281][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'lazy_threshold': 0.6,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,282][0][INFO][generic_smbo.py:295] Iter 33, objectives: [inf, inf].
+[2024-02-22 18:44:28,282][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,283][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.8,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,284][0][INFO][generic_smbo.py:295] Iter 34, objectives: [inf, inf].
+[2024-02-22 18:44:28,284][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 18:44:28,285][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,286][0][INFO][generic_smbo.py:295] Iter 35, objectives: [inf, inf].
+[2024-02-22 18:44:28,286][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,287][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,288][0][INFO][generic_smbo.py:295] Iter 36, objectives: [inf, inf].
+[2024-02-22 18:44:28,288][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 18:44:28,289][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'lazy_threshold': 0.72,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,290][0][INFO][generic_smbo.py:295] Iter 37, objectives: [inf, inf].
+[2024-02-22 18:44:28,290][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,292][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'lazy_threshold': 0.62,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,292][0][INFO][generic_smbo.py:295] Iter 38, objectives: [inf, inf].
+[2024-02-22 18:44:28,293][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,294][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.64,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,294][0][INFO][generic_smbo.py:295] Iter 39, objectives: [inf, inf].
+[2024-02-22 18:44:28,295][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,296][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.78,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,296][0][INFO][generic_smbo.py:295] Iter 40, objectives: [inf, inf].
+[2024-02-22 18:44:28,297][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,298][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.6,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,299][0][INFO][generic_smbo.py:295] Iter 41, objectives: [inf, inf].
+[2024-02-22 18:44:28,299][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,300][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.84,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,301][0][INFO][generic_smbo.py:295] Iter 42, objectives: [inf, inf].
+[2024-02-22 18:44:28,301][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 18:44:28,302][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.78,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,303][0][INFO][generic_smbo.py:295] Iter 43, objectives: [inf, inf].
+[2024-02-22 18:44:28,304][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,305][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'lazy_threshold': 0.7,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,305][0][INFO][generic_smbo.py:295] Iter 44, objectives: [inf, inf].
+[2024-02-22 18:44:28,306][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,307][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,307][0][INFO][generic_smbo.py:295] Iter 45, objectives: [inf, inf].
+[2024-02-22 18:44:28,308][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,309][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.72,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,310][0][INFO][generic_smbo.py:295] Iter 46, objectives: [inf, inf].
+[2024-02-22 18:44:28,310][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,311][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,312][0][INFO][generic_smbo.py:295] Iter 47, objectives: [inf, inf].
+[2024-02-22 18:44:28,313][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,314][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.8,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 18:44:28,315][0][INFO][generic_smbo.py:295] Iter 48, objectives: [inf, inf].
+[2024-02-22 18:44:28,315][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,317][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'lazy_threshold': 0.82,
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 18:44:28,317][0][INFO][generic_smbo.py:295] Iter 49, objectives: [inf, inf].
+[2024-02-22 18:44:28,318][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 18:44:28,319][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+TypeError: profile() got an unexpected keyword argument 'lazy_threshold_'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'lazy_threshold': 0.6,
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 18:44:28,319][0][INFO][generic_smbo.py:295] Iter 50, objectives: [inf, inf].
+[2024-02-22 18:44:28,365][0][WARNING][history.py:651] No feasible observations! Return empty pareto.

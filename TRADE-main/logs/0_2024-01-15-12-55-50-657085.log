@@ -1,0 +1,2474 @@
+[2024-01-15 12:55:50,657][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-01-15-12-55-50-657085.log
+[2024-01-15 12:55:54,046][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 77.85 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:55:54,047][0][INFO][generic_smbo.py:295] Iter 1, objectives: [inf, inf].
+[2024-01-15 12:55:55,368][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '4',
+  'fps_camera4': '10',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:55:55,369][0][INFO][generic_smbo.py:295] Iter 2, objectives: [inf, inf].
+[2024-01-15 12:55:55,656][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 79.18 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '1',
+  'fps_camera3': '10',
+  'fps_camera4': '2',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:55:55,657][0][INFO][generic_smbo.py:295] Iter 3, objectives: [inf, inf].
+[2024-01-15 12:55:55,910][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 79.18 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.6799999999999999,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:55:55,911][0][INFO][generic_smbo.py:295] Iter 4, objectives: [inf, inf].
+[2024-01-15 12:55:56,133][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '1',
+  'fps_camera3': '2',
+  'fps_camera4': '10',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.82,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:55:56,134][0][INFO][generic_smbo.py:295] Iter 5, objectives: [inf, inf].
+[2024-01-15 12:55:56,517][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 79.18 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '4',
+  'fps_camera3': '4',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.64,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:55:56,518][0][INFO][generic_smbo.py:295] Iter 6, objectives: [inf, inf].
+[2024-01-15 12:55:56,810][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:55:56,811][0][INFO][generic_smbo.py:295] Iter 7, objectives: [inf, inf].
+[2024-01-15 12:55:57,048][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 79.18 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '4',
+  'fps_camera3': '4',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:55:57,049][0][INFO][generic_smbo.py:295] Iter 8, objectives: [inf, inf].
+[2024-01-15 12:55:57,261][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '1',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:55:57,262][0][INFO][generic_smbo.py:295] Iter 9, objectives: [inf, inf].
+[2024-01-15 12:55:57,263][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:55:57,518][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 79.18 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:55:57,519][0][INFO][generic_smbo.py:295] Iter 10, objectives: [inf, inf].
+[2024-01-15 12:55:57,520][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:55:57,812][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 79.18 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.6799999999999999,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:55:57,813][0][INFO][generic_smbo.py:295] Iter 11, objectives: [inf, inf].
+[2024-01-15 12:55:57,815][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:55:58,280][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 81.05 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '1',
+  'fps_camera3': '2',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:55:58,281][0][INFO][generic_smbo.py:295] Iter 12, objectives: [inf, inf].
+[2024-01-15 12:55:58,282][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:55:58,500][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 79.18 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '1',
+  'fps_camera3': '2',
+  'fps_camera4': '10',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:55:58,501][0][INFO][generic_smbo.py:295] Iter 13, objectives: [inf, inf].
+[2024-01-15 12:55:58,501][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-01-15 12:55:58,721][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 81.05 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '4',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:55:58,722][0][INFO][generic_smbo.py:295] Iter 14, objectives: [inf, inf].
+[2024-01-15 12:55:58,723][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:55:58,956][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 79.18 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '10',
+  'fps_camera3': '2',
+  'fps_camera4': '4',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:55:58,957][0][INFO][generic_smbo.py:295] Iter 15, objectives: [inf, inf].
+[2024-01-15 12:55:58,958][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:55:59,195][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '4',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:55:59,196][0][INFO][generic_smbo.py:295] Iter 16, objectives: [inf, inf].
+[2024-01-15 12:55:59,197][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:55:59,460][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 81.05 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '2',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:55:59,462][0][INFO][generic_smbo.py:295] Iter 17, objectives: [inf, inf].
+[2024-01-15 12:55:59,463][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:55:59,779][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 81.05 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:55:59,780][0][INFO][generic_smbo.py:295] Iter 18, objectives: [inf, inf].
+[2024-01-15 12:55:59,782][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:00,041][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 81.05 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '10',
+  'fps_camera3': '4',
+  'fps_camera4': '1',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:56:00,042][0][INFO][generic_smbo.py:295] Iter 19, objectives: [inf, inf].
+[2024-01-15 12:56:00,044][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:00,348][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '2',
+  'fps_camera3': '10',
+  'fps_camera4': '4',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.86,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:56:00,349][0][INFO][generic_smbo.py:295] Iter 20, objectives: [inf, inf].
+[2024-01-15 12:56:00,350][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:00,581][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '4',
+  'fps_camera3': '4',
+  'fps_camera4': '4',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.76,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:56:00,582][0][INFO][generic_smbo.py:295] Iter 21, objectives: [inf, inf].
+[2024-01-15 12:56:00,583][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:00,798][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '4',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:56:00,799][0][INFO][generic_smbo.py:295] Iter 22, objectives: [inf, inf].
+[2024-01-15 12:56:00,800][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:01,038][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '4',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:56:01,039][0][INFO][generic_smbo.py:295] Iter 23, objectives: [inf, inf].
+[2024-01-15 12:56:01,041][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:01,295][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 81.05 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '2',
+  'fps_camera4': '2',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:56:01,296][0][INFO][generic_smbo.py:295] Iter 24, objectives: [inf, inf].
+[2024-01-15 12:56:01,297][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:01,790][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 71.65 MiB already allocated; 19.62 MiB free; 82.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '4',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:56:01,791][0][INFO][generic_smbo.py:295] Iter 25, objectives: [inf, inf].
+[2024-01-15 12:56:01,792][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:02,071][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 71.65 MiB already allocated; 19.62 MiB free; 82.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '2',
+  'fps_camera3': '2',
+  'fps_camera4': '1',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.6,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:56:02,072][0][INFO][generic_smbo.py:295] Iter 26, objectives: [inf, inf].
+[2024-01-15 12:56:02,073][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:02,579][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 93.00 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '4',
+  'fps_camera3': '10',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.86,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:56:02,580][0][INFO][generic_smbo.py:295] Iter 27, objectives: [inf, inf].
+[2024-01-15 12:56:02,581][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:02,815][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 81.05 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '4',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.82,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:56:02,815][0][INFO][generic_smbo.py:295] Iter 28, objectives: [inf, inf].
+[2024-01-15 12:56:02,817][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:03,059][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 78.02 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '2',
+  'fps_camera3': '2',
+  'fps_camera4': '2',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.6,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:56:03,060][0][INFO][generic_smbo.py:295] Iter 29, objectives: [inf, inf].
+[2024-01-15 12:56:03,062][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:03,293][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 81.05 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '1',
+  'fps_camera3': '10',
+  'fps_camera4': '2',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:56:03,294][0][INFO][generic_smbo.py:295] Iter 30, objectives: [inf, inf].
+[2024-01-15 12:56:03,296][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:03,607][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '4',
+  'fps_camera3': '1',
+  'fps_camera4': '10',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.74,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:56:03,608][0][INFO][generic_smbo.py:295] Iter 31, objectives: [inf, inf].
+[2024-01-15 12:56:03,610][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:03,892][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 78.02 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '2',
+  'fps_camera3': '2',
+  'fps_camera4': '1',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:56:03,893][0][INFO][generic_smbo.py:295] Iter 32, objectives: [inf, inf].
+[2024-01-15 12:56:03,895][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:04,152][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 78.02 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '1',
+  'fps_camera3': '10',
+  'fps_camera4': '2',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.82,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:56:04,152][0][INFO][generic_smbo.py:295] Iter 33, objectives: [inf, inf].
+[2024-01-15 12:56:04,154][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:04,437][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 81.05 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '4',
+  'fps_camera3': '4',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.82,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:56:04,439][0][INFO][generic_smbo.py:295] Iter 34, objectives: [inf, inf].
+[2024-01-15 12:56:04,440][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:04,687][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '4',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '4',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.74,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:56:04,688][0][INFO][generic_smbo.py:295] Iter 35, objectives: [inf, inf].
+[2024-01-15 12:56:04,689][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:04,964][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 78.02 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '4',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:56:04,965][0][INFO][generic_smbo.py:295] Iter 36, objectives: [inf, inf].
+[2024-01-15 12:56:04,966][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:05,244][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 78.02 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '10',
+  'fps_camera4': '4',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:56:05,245][0][INFO][generic_smbo.py:295] Iter 37, objectives: [inf, inf].
+[2024-01-15 12:56:05,245][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-01-15 12:56:05,497][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 81.05 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '4',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:56:05,498][0][INFO][generic_smbo.py:295] Iter 38, objectives: [inf, inf].
+[2024-01-15 12:56:05,500][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:05,777][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 78.02 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:56:05,778][0][INFO][generic_smbo.py:295] Iter 39, objectives: [inf, inf].
+[2024-01-15 12:56:05,780][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:06,016][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 81.05 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '4',
+  'fps_camera3': '4',
+  'fps_camera4': '4',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:56:06,017][0][INFO][generic_smbo.py:295] Iter 40, objectives: [inf, inf].
+[2024-01-15 12:56:06,018][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:06,263][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 78.02 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '4',
+  'fps_camera4': '4',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.84,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:56:06,264][0][INFO][generic_smbo.py:295] Iter 41, objectives: [inf, inf].
+[2024-01-15 12:56:06,265][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:06,515][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 78.02 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '4',
+  'fps_camera3': '2',
+  'fps_camera4': '4',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.86,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:56:06,516][0][INFO][generic_smbo.py:295] Iter 42, objectives: [inf, inf].
+[2024-01-15 12:56:06,517][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:07,212][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 78.37 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '10',
+  'fps_camera3': '2',
+  'fps_camera4': '2',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:56:07,213][0][INFO][generic_smbo.py:295] Iter 43, objectives: [inf, inf].
+[2024-01-15 12:56:07,215][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:07,489][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '10',
+  'fps_camera3': '4',
+  'fps_camera4': '10',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.6,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:56:07,490][0][INFO][generic_smbo.py:295] Iter 44, objectives: [inf, inf].
+[2024-01-15 12:56:07,491][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:07,714][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 81.36 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '2',
+  'fps_camera3': '4',
+  'fps_camera4': '1',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:56:07,714][0][INFO][generic_smbo.py:295] Iter 45, objectives: [inf, inf].
+[2024-01-15 12:56:07,715][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:07,943][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '4',
+  'fps_camera3': '4',
+  'fps_camera4': '2',
+  'fps_camera5': '10',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5l.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+  'resolution_camera5': '1280',
+})
+
+[2024-01-15 12:56:07,944][0][INFO][generic_smbo.py:295] Iter 46, objectives: [inf, inf].
+[2024-01-15 12:56:07,945][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:08,245][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 78.02 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '2',
+  'fps_camera3': '4',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:56:08,245][0][INFO][generic_smbo.py:295] Iter 47, objectives: [inf, inf].
+[2024-01-15 12:56:08,247][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:08,456][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 81.36 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '2',
+  'fps_camera3': '2',
+  'fps_camera4': '1',
+  'fps_camera5': '2',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+  'resolution_camera5': '640',
+})
+
+[2024-01-15 12:56:08,457][0][INFO][generic_smbo.py:295] Iter 48, objectives: [inf, inf].
+[2024-01-15 12:56:08,459][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:08,707][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in float
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 823, in <lambda>
+    return self._apply(lambda t: t.float() if t.is_floating_point() else t)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 78.02 MiB already allocated; 3.62 MiB free; 98.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '2',
+  'fps_camera2': '1',
+  'fps_camera3': '2',
+  'fps_camera4': '1',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.86,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:56:08,708][0][INFO][generic_smbo.py:295] Iter 49, objectives: [inf, inf].
+[2024-01-15 12:56:08,709][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-01-15 12:56:08,951][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 63, in multi_camera_matching
+    cams_dir_= cams_dir, weights_= weights, imgsz_=imgsz, cams_ratio_=cams_ratio, lazy_threshold_=lazy_threshold, gpu_id = GPU_ID)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 896, in profile
+    gt_detect, gt_dict, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 517, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 123, in attempt_load
+    map_location=map_location)['model'].float().fuse().eval())  # load FP32 model
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/miniconda3/envs/videoDB/lib/python3.7/site-packages/torch/_utils.py", line 81, in _cuda
+    self.size(), device=torch.device("cuda")
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 92.09 MiB already allocated; 5.62 MiB free; 96.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '1',
+  'fps_camera3': '4',
+  'fps_camera4': '10',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.86,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-01-15 12:56:08,952][0][INFO][generic_smbo.py:295] Iter 50, objectives: [inf, inf].
+[2024-01-15 12:56:08,961][0][WARNING][history.py:651] No feasible observations! Return empty pareto.

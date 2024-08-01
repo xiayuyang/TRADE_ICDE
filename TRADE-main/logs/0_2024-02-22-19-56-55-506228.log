@@ -1,0 +1,692 @@
+[2024-02-22 19:56:55,507][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-02-22-19-56-55-506228.log
+[2024-02-22 19:56:55,744][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:55,949][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:56,165][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:56,370][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:56,575][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:56,772][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:56,966][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:57,174][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:57,373][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:57,588][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:57,810][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:58,046][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:58,258][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:58,481][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:58,698][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:58,940][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:59,158][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:59,374][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:59,599][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:56:59,822][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:00,030][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:00,219][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:00,431][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:00,618][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:00,828][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:01,046][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:01,266][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:01,482][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:01,686][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:01,887][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:02,090][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:02,283][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:02,471][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:02,691][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:02,901][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:03,099][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:03,319][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:03,512][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:03,706][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:03,906][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:04,110][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:04,303][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:04,509][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:04,725][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:04,949][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:05,180][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:05,394][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:05,622][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:05,843][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:06,075][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:06,330][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:06,543][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:06,767][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:06,986][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:07,207][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:07,426][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:07,635][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:07,875][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:08,093][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:08,299][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:08,504][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:08,691][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:08,877][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:09,124][0][WARNING][generic_advisor.py:482] Cannot sample non duplicate configuration after 1000 iterations.
+[2024-02-22 19:57:21,432][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:57:21,435][0][INFO][generic_smbo.py:295] Iter 1, objectives: [inf, inf].
+[2024-02-22 19:57:28,150][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:57:28,151][0][INFO][generic_smbo.py:295] Iter 2, objectives: [inf, inf].
+[2024-02-22 19:57:28,152][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:57:34,216][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:57:34,218][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:57:34,218][0][INFO][generic_smbo.py:295] Iter 3, objectives: [inf, inf].
+[2024-02-22 19:57:34,219][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:57:41,612][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:57:41,613][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:57:41,613][0][INFO][generic_smbo.py:295] Iter 4, objectives: [inf, inf].
+[2024-02-22 19:57:41,614][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:57:49,329][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:57:49,330][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:57:49,331][0][INFO][generic_smbo.py:295] Iter 5, objectives: [inf, inf].
+[2024-02-22 19:57:49,332][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:57:56,958][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:57:56,960][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:57:56,960][0][INFO][generic_smbo.py:295] Iter 6, objectives: [inf, inf].
+[2024-02-22 19:58:04,662][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:58:04,663][0][INFO][generic_smbo.py:295] Iter 7, objectives: [inf, inf].
+[2024-02-22 19:58:11,033][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:58:11,034][0][INFO][generic_smbo.py:295] Iter 8, objectives: [inf, inf].
+[2024-02-22 19:58:11,036][0][WARNING][generic_smbo.py:253] Evaluating duplicated configuration: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:58:18,016][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:58:18,017][0][WARNING][history.py:242] Duplicate configuration detected!
+[2024-02-22 19:58:18,017][0][INFO][generic_smbo.py:295] Iter 9, objectives: [inf, inf].
+[2024-02-22 19:58:18,020][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:58:24,774][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:58:24,775][0][INFO][generic_smbo.py:295] Iter 10, objectives: [inf, inf].
+[2024-02-22 19:58:24,777][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:58:32,391][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:58:32,392][0][INFO][generic_smbo.py:295] Iter 11, objectives: [inf, inf].
+[2024-02-22 19:58:32,395][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:58:39,084][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:58:39,085][0][INFO][generic_smbo.py:295] Iter 12, objectives: [inf, inf].
+[2024-02-22 19:58:39,087][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:58:46,520][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:58:46,521][0][INFO][generic_smbo.py:295] Iter 13, objectives: [inf, inf].
+[2024-02-22 19:58:46,524][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:58:53,098][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:58:53,099][0][INFO][generic_smbo.py:295] Iter 14, objectives: [inf, inf].
+[2024-02-22 19:58:53,101][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:59:00,533][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:59:00,535][0][INFO][generic_smbo.py:295] Iter 15, objectives: [inf, inf].
+[2024-02-22 19:59:00,538][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:59:07,922][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:59:07,926][0][INFO][generic_smbo.py:295] Iter 16, objectives: [inf, inf].
+[2024-02-22 19:59:07,929][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:59:15,119][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:59:15,120][0][INFO][generic_smbo.py:295] Iter 17, objectives: [inf, inf].
+[2024-02-22 19:59:15,123][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:59:21,532][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:59:21,533][0][INFO][generic_smbo.py:295] Iter 18, objectives: [inf, inf].
+[2024-02-22 19:59:21,534][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:59:27,903][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 19:59:27,904][0][INFO][generic_smbo.py:295] Iter 19, objectives: [inf, inf].
+[2024-02-22 19:59:27,907][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:59:34,867][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:59:34,868][0][INFO][generic_smbo.py:295] Iter 20, objectives: [inf, inf].
+[2024-02-22 19:59:34,870][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:59:41,816][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 19:59:41,817][0][INFO][generic_smbo.py:295] Iter 21, objectives: [inf, inf].
+[2024-02-22 19:59:41,819][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:59:48,402][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:59:48,404][0][INFO][generic_smbo.py:295] Iter 22, objectives: [inf, inf].
+[2024-02-22 19:59:48,407][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 19:59:55,854][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '2',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 19:59:55,862][0][INFO][generic_smbo.py:295] Iter 23, objectives: [inf, inf].
+[2024-02-22 19:59:55,865][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 20:00:03,462][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5l.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 20:00:03,464][0][INFO][generic_smbo.py:295] Iter 24, objectives: [inf, inf].
+[2024-02-22 20:00:03,466][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 20:00:10,038][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5s.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 20:00:10,041][0][INFO][generic_smbo.py:295] Iter 25, objectives: [inf, inf].
+[2024-02-22 20:00:10,043][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 20:00:16,606][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '4',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 20:00:16,607][0][INFO][generic_smbo.py:295] Iter 26, objectives: [inf, inf].
+[2024-02-22 20:00:16,609][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 20:00:23,666][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 20:00:23,668][0][INFO][generic_smbo.py:295] Iter 27, objectives: [inf, inf].
+[2024-02-22 20:00:23,670][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 20:00:30,442][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '640',
+})
+
+[2024-02-22 20:00:30,443][0][INFO][generic_smbo.py:295] Iter 28, objectives: [inf, inf].
+[2024-02-22 20:00:30,445][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 20:00:37,303][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '10',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '1280',
+})
+
+[2024-02-22 20:00:37,305][0][INFO][generic_smbo.py:295] Iter 29, objectives: [inf, inf].
+[2024-02-22 20:00:37,308][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-02-22 20:00:44,695][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/s_bo.py", line 85, in multi_camera_matching
+    accuracy, processing_time, section_json = accuracy, processing_time = profile(target_cam_=1, cams_dir_= cams_dir,
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 790, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time=run_mtmc(target_cam_index=target_cam_, cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtsc.py", line 505, in run_mtmc
+    gt_dict[cam] = read_data_from_txt(gt_dir)
+TypeError: read_data_from_txt() missing 1 required positional argument: 'cams_ratio'
+
+config: Configuration(values={
+  'fps_camera': '1',
+  'model_size_camera': 'yolov5m.pt',
+  'resolution_camera': '320',
+})
+
+[2024-02-22 20:00:44,697][0][INFO][generic_smbo.py:295] Iter 30, objectives: [inf, inf].
+[2024-02-22 20:00:44,699][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.

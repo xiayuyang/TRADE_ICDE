@@ -1,0 +1,117 @@
+[2024-02-22 16:49:09,723][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-02-22-16-49-09-722185.log
+[2024-02-22 17:08:29,274][0][INFO][generic_smbo.py:295] Iter 1, objectives: [0.5790614672835785, -0.012993769314554003].
+[2024-02-22 17:21:33,611][0][INFO][generic_smbo.py:295] Iter 2, objectives: [0.41193229001302567, -0.06526136000951131].
+[2024-02-22 17:37:19,102][0][INFO][generic_smbo.py:295] Iter 3, objectives: [0.29429879667342485, -0.0438266705804401].
+[2024-02-22 17:48:48,340][0][INFO][generic_smbo.py:295] Iter 4, objectives: [0.305938398758008, -0.07462407986323039].
+[2024-02-22 18:13:29,816][0][INFO][generic_smbo.py:295] Iter 5, objectives: [0.32273901384670733, 0.01773494283358256].
+[2024-02-22 18:31:03,795][0][INFO][generic_smbo.py:295] Iter 6, objectives: [0.4706595234064328, -0.03121490975220998].
+[2024-02-22 18:45:17,586][0][INFO][generic_smbo.py:295] Iter 7, objectives: [0.45927878321129534, -0.05443902959426244].
+[2024-02-22 18:57:16,850][0][INFO][generic_smbo.py:295] Iter 8, objectives: [0.35433931283664377, -0.07122818059391446].
+[2024-02-22 19:20:01,419][0][INFO][generic_smbo.py:295] Iter 9, objectives: [0.45657872247377196, 0.005122925175560845].
+[2024-02-22 19:20:01,420][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 19:40:48,838][0][INFO][generic_smbo.py:295] Iter 10, objectives: [0.4002049369488523, -0.008170978294478522].
+[2024-02-22 19:54:42,629][0][INFO][generic_smbo.py:295] Iter 11, objectives: [0.3420336854677978, -0.05926250090201696].
+[2024-02-22 20:11:16,452][0][INFO][generic_smbo.py:295] Iter 12, objectives: [0.3621839058280366, -0.03918597482972675].
+[2024-02-22 20:26:18,679][0][INFO][generic_smbo.py:295] Iter 13, objectives: [0.32383725649842887, -0.04831325434976154].
+[2024-02-22 20:35:11,161][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 86, in multi_camera_matching
+    else:
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 923, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 822, in run_mtmc
+    mm_data[cam][i]['detections'].append([matched_tid,x,y,w,h])
+KeyError: 1148
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '4',
+  'fps_camera3': '10',
+  'fps_camera4': '10',
+  'fps_camera5': '4',
+  'lazy_threshold': 0.82,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+  'resolution_camera5': '320',
+})
+
+[2024-02-22 20:35:11,164][0][INFO][generic_smbo.py:295] Iter 14, objectives: [inf, inf].
+[2024-02-22 20:44:25,065][0][INFO][generic_smbo.py:295] Iter 15, objectives: [0.37193156957307305, -0.0886724837621053].
+[2024-02-22 21:01:21,045][0][INFO][generic_smbo.py:295] Iter 16, objectives: [0.4097194235744721, -0.03514766752719879].
+[2024-02-22 21:12:58,712][0][INFO][generic_smbo.py:295] Iter 17, objectives: [0.31855644047411236, -0.07313880076011021].
+[2024-02-22 21:28:22,675][0][INFO][generic_smbo.py:295] Iter 18, objectives: [0.2951438029944232, -0.04787774410512712].
+[2024-02-22 21:38:10,628][0][INFO][generic_smbo.py:295] Iter 19, objectives: [0.4352307807393183, -0.10334263768461016].
+[2024-02-22 21:38:10,629][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-22 21:49:28,234][0][INFO][generic_smbo.py:295] Iter 20, objectives: [0.3755750916391474, -0.07551336894432703].
+[2024-02-22 22:03:20,825][0][INFO][generic_smbo.py:295] Iter 21, objectives: [0.32211133785631185, -0.05807943284511566].
+[2024-02-22 22:20:35,394][0][INFO][generic_smbo.py:295] Iter 22, objectives: [0.31666980744278206, -0.03942164586650001].
+[2024-02-22 22:36:29,456][0][INFO][generic_smbo.py:295] Iter 23, objectives: [0.4669616814029991, -0.0445603061053488].
+[2024-02-22 22:51:56,962][0][INFO][generic_smbo.py:295] Iter 24, objectives: [0.424073943180415, -0.04708944711420271].
+[2024-02-22 23:02:07,899][0][INFO][generic_smbo.py:295] Iter 25, objectives: [0.3681261155901103, -0.09151776846912173].
+[2024-02-22 23:16:27,068][0][INFO][generic_smbo.py:295] Iter 26, objectives: [0.40889956127867455, -0.05415168195962906].
+[2024-02-22 23:31:41,780][0][INFO][generic_smbo.py:295] Iter 27, objectives: [0.4264676548675419, -0.04854596296946208].
+[2024-02-22 23:46:08,181][0][INFO][generic_smbo.py:295] Iter 28, objectives: [0.28772222633353184, -0.05567287898725933].
+[2024-02-23 00:03:33,462][0][INFO][generic_smbo.py:295] Iter 29, objectives: [0.30331801226160127, -0.03426279021633996].
+[2024-02-23 00:16:51,620][0][INFO][generic_smbo.py:295] Iter 30, objectives: [0.28202579208223266, -0.06743595507409837].
+[2024-02-23 00:31:31,637][0][INFO][generic_smbo.py:295] Iter 31, objectives: [0.3310102178780321, -0.05737831953499052].
+[2024-02-23 00:46:06,817][0][INFO][generic_smbo.py:295] Iter 32, objectives: [0.33419037066578194, -0.056684927344322206].
+[2024-02-23 01:03:08,621][0][INFO][generic_smbo.py:295] Iter 33, objectives: [0.3183810433442784, -0.03950195421775182].
+[2024-02-23 01:20:23,781][0][INFO][generic_smbo.py:295] Iter 34, objectives: [0.3367867631214281, -0.038221410512924194].
+[2024-02-23 01:34:24,756][0][INFO][generic_smbo.py:295] Iter 35, objectives: [0.3489779928426502, -0.05935505274269316].
+[2024-02-23 01:34:24,757][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-02-23 01:46:14,218][0][INFO][generic_smbo.py:295] Iter 36, objectives: [0.46555274350481346, -0.07247598740789625].
+[2024-02-23 02:02:20,210][0][INFO][generic_smbo.py:295] Iter 37, objectives: [0.28211298839281174, -0.04787700239155027].
+[2024-02-23 02:22:20,890][0][INFO][generic_smbo.py:295] Iter 38, objectives: [0.2858258912947824, -0.01889663984378179].
+[2024-02-23 02:38:34,930][0][INFO][generic_smbo.py:295] Iter 39, objectives: [0.370730594741443, -0.04474274728033278].
+[2024-02-23 02:56:11,969][0][INFO][generic_smbo.py:295] Iter 40, objectives: [0.2845502485665833, -0.036329373353057436].
+[2024-02-23 03:06:15,375][0][INFO][generic_smbo.py:295] Iter 41, objectives: [0.31997659908668297, -0.09503270513481564].
+[2024-02-23 03:20:58,815][0][INFO][generic_smbo.py:295] Iter 42, objectives: [0.32570613580649044, -0.05469333317544725].
+[2024-02-23 03:36:45,751][0][INFO][generic_smbo.py:295] Iter 43, objectives: [0.34511933684223206, -0.04674312502145767].
+[2024-02-23 03:49:24,147][0][INFO][generic_smbo.py:295] Iter 44, objectives: [0.27980887698215984, -0.07063162727488412].
+[2024-02-23 04:05:33,199][0][INFO][generic_smbo.py:295] Iter 45, objectives: [0.3147739978374169, -0.045792300237549675].
+[2024-02-23 04:18:53,430][0][INFO][generic_smbo.py:295] Iter 46, objectives: [0.42921525341726163, -0.06436557985014385].
+[2024-02-23 04:32:07,724][0][INFO][generic_smbo.py:295] Iter 47, objectives: [0.31888074732041904, -0.06613526499933667].
+[2024-02-23 04:49:14,925][0][INFO][generic_smbo.py:295] Iter 48, objectives: [0.29698545018124245, -0.04024949547317293].
+[2024-02-23 04:59:09,484][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 86, in multi_camera_matching
+    else:
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 923, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/my_mtmc.py", line 822, in run_mtmc
+    mm_data[cam][i]['detections'].append([matched_tid,x,y,w,h])
+KeyError: 1146
+
+config: Configuration(values={
+  'fps_camera1': '10',
+  'fps_camera2': '10',
+  'fps_camera3': '4',
+  'fps_camera4': '10',
+  'fps_camera5': '1',
+  'lazy_threshold': 0.84,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'model_size_camera5': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+  'resolution_camera5': '320',
+})
+
+[2024-02-23 04:59:09,487][0][INFO][generic_smbo.py:295] Iter 49, objectives: [inf, inf].
+[2024-02-23 05:12:31,101][0][INFO][generic_smbo.py:295] Iter 50, objectives: [0.30331357317431307, -0.06476767467127906].
+[2024-02-23 05:12:31,144][0][INFO][history.py:738] Computing all hypervolumes...

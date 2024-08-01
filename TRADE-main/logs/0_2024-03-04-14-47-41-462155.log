@@ -1,0 +1,1871 @@
+[2024-03-04 14:47:41,474][0][INFO][color_logger.py:203] Logfile: /data1/xiayuyang/online_mcmt/logs/0_2024-03-04-14-47-41-462155.log
+[2024-03-04 14:47:47,972][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.73 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+})
+
+[2024-03-04 14:47:47,976][0][INFO][generic_smbo.py:295] Iter 1, objectives: [inf, inf].
+[2024-03-04 14:47:49,520][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.94 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5x.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5x.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:47:49,524][0][INFO][generic_smbo.py:295] Iter 2, objectives: [inf, inf].
+[2024-03-04 14:47:51,003][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.73 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5x.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5x.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:47:51,004][0][INFO][generic_smbo.py:295] Iter 3, objectives: [inf, inf].
+[2024-03-04 14:47:53,269][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.97 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.64,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5x.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+})
+
+[2024-03-04 14:47:53,270][0][INFO][generic_smbo.py:295] Iter 4, objectives: [inf, inf].
+[2024-03-04 14:47:54,842][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.94 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.84,
+  'model_size_camera1': 'yolov5x.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5x.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:47:54,846][0][INFO][generic_smbo.py:295] Iter 5, objectives: [inf, inf].
+[2024-03-04 14:47:57,414][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.73 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.82,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5x.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:47:57,416][0][INFO][generic_smbo.py:295] Iter 6, objectives: [inf, inf].
+[2024-03-04 14:47:59,199][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.97 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:47:59,200][0][INFO][generic_smbo.py:295] Iter 7, objectives: [inf, inf].
+[2024-03-04 14:48:00,849][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.97 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.76,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:48:00,850][0][INFO][generic_smbo.py:295] Iter 8, objectives: [inf, inf].
+[2024-03-04 14:48:02,376][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.97 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.86,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5x.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:48:02,377][0][INFO][generic_smbo.py:295] Iter 9, objectives: [inf, inf].
+[2024-03-04 14:48:02,379][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:04,216][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 1.79 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.76,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:48:04,217][0][INFO][generic_smbo.py:295] Iter 10, objectives: [inf, inf].
+[2024-03-04 14:48:04,219][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:05,660][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.94 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.86,
+  'model_size_camera1': 'yolov5x.pt',
+  'model_size_camera2': 'yolov5x.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5x.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:48:05,669][0][INFO][generic_smbo.py:295] Iter 11, objectives: [inf, inf].
+[2024-03-04 14:48:05,670][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:07,474][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.94 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5x.pt',
+  'model_size_camera2': 'yolov5x.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:48:07,478][0][INFO][generic_smbo.py:295] Iter 12, objectives: [inf, inf].
+[2024-03-04 14:48:07,480][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:10,286][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.73 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.84,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5x.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5x.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:48:10,287][0][INFO][generic_smbo.py:295] Iter 13, objectives: [inf, inf].
+[2024-03-04 14:48:10,289][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:12,174][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.97 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.86,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:48:12,178][0][INFO][generic_smbo.py:295] Iter 14, objectives: [inf, inf].
+[2024-03-04 14:48:12,179][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:14,809][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 1.79 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.6799999999999999,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:48:14,810][0][INFO][generic_smbo.py:295] Iter 15, objectives: [inf, inf].
+[2024-03-04 14:48:14,811][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-03-04 14:48:17,002][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 1.79 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:48:17,003][0][INFO][generic_smbo.py:295] Iter 16, objectives: [inf, inf].
+[2024-03-04 14:48:17,005][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:19,222][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.73 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:48:19,224][0][INFO][generic_smbo.py:295] Iter 17, objectives: [inf, inf].
+[2024-03-04 14:48:19,225][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:21,975][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 1.79 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5x.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:48:21,979][0][INFO][generic_smbo.py:295] Iter 18, objectives: [inf, inf].
+[2024-03-04 14:48:21,980][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-03-04 14:48:23,838][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.94 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.76,
+  'model_size_camera1': 'yolov5x.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:48:23,839][0][INFO][generic_smbo.py:295] Iter 19, objectives: [inf, inf].
+[2024-03-04 14:48:23,840][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:26,443][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.73 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:48:26,444][0][INFO][generic_smbo.py:295] Iter 20, objectives: [inf, inf].
+[2024-03-04 14:48:26,445][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:28,538][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.94 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5x.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:48:28,539][0][INFO][generic_smbo.py:295] Iter 21, objectives: [inf, inf].
+[2024-03-04 14:48:28,540][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:30,449][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.94 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.64,
+  'model_size_camera1': 'yolov5x.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5x.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:48:30,452][0][INFO][generic_smbo.py:295] Iter 22, objectives: [inf, inf].
+[2024-03-04 14:48:30,453][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:31,961][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.94 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5x.pt',
+  'model_size_camera2': 'yolov5x.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:48:31,966][0][INFO][generic_smbo.py:295] Iter 23, objectives: [inf, inf].
+[2024-03-04 14:48:31,967][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:33,858][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.94 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5x.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:48:33,859][0][INFO][generic_smbo.py:295] Iter 24, objectives: [inf, inf].
+[2024-03-04 14:48:33,867][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:35,726][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.97 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.8999999999999999,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:48:35,729][0][INFO][generic_smbo.py:295] Iter 25, objectives: [inf, inf].
+[2024-03-04 14:48:35,730][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:37,500][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.73 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5s.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:48:37,501][0][INFO][generic_smbo.py:295] Iter 26, objectives: [inf, inf].
+[2024-03-04 14:48:37,502][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-03-04 14:48:39,080][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.94 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5x.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5x.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+})
+
+[2024-03-04 14:48:39,081][0][INFO][generic_smbo.py:295] Iter 27, objectives: [inf, inf].
+[2024-03-04 14:48:39,083][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:41,107][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 1.79 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.6799999999999999,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5x.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '320',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+})
+
+[2024-03-04 14:48:41,110][0][INFO][generic_smbo.py:295] Iter 28, objectives: [inf, inf].
+[2024-03-04 14:48:41,111][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:42,987][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 1.79 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.84,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:48:42,988][0][INFO][generic_smbo.py:295] Iter 29, objectives: [inf, inf].
+[2024-03-04 14:48:42,988][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:44,676][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.97 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.8,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5x.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:48:44,677][0][INFO][generic_smbo.py:295] Iter 30, objectives: [inf, inf].
+[2024-03-04 14:48:44,680][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:45,991][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.94 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.62,
+  'model_size_camera1': 'yolov5x.pt',
+  'model_size_camera2': 'yolov5x.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:48:45,992][0][INFO][generic_smbo.py:295] Iter 31, objectives: [inf, inf].
+[2024-03-04 14:48:45,992][0][INFO][generic_advisor.py:365] Sample random config. rand_prob=0.100000.
+[2024-03-04 14:48:47,483][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.97 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.6599999999999999,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5x.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:48:47,484][0][INFO][generic_smbo.py:295] Iter 32, objectives: [inf, inf].
+[2024-03-04 14:48:47,485][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:49,177][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 9.77 GiB total capacity; 1.79 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5x.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '320',
+})
+
+[2024-03-04 14:48:49,178][0][INFO][generic_smbo.py:295] Iter 33, objectives: [inf, inf].
+[2024-03-04 14:48:49,179][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:50,799][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.97 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.72,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5m.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:48:50,801][0][INFO][generic_smbo.py:295] Iter 34, objectives: [inf, inf].
+[2024-03-04 14:48:50,802][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:52,047][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.94 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.7,
+  'model_size_camera1': 'yolov5x.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:48:52,048][0][INFO][generic_smbo.py:295] Iter 35, objectives: [inf, inf].
+[2024-03-04 14:48:52,049][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:48:53,434][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 536, in run_mtmc
+    det_model = attempt_load(weights, map_location=device)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/models/experimental.py", line 122, in attempt_load
+    model.append(torch.load(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), w),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 789, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1131, in _load
+    result = unpickler.load()
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1101, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1083, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 1055, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+    result = fn(storage, location)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/serialization.py", line 187, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/torch/_utils.py", line 80, in _cuda
+    untyped_storage = torch.UntypedStorage(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 9.77 GiB total capacity; 1.97 MiB already allocated; 3.62 MiB free; 2.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.6,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5s.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5x.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:48:53,435][0][INFO][generic_smbo.py:295] Iter 36, objectives: [inf, inf].
+[2024-03-04 14:48:53,436][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:49:45,452][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 782, in run_mtmc
+    if ((frame_idx - frame_list[-1] > 20) and (tid not in trackers_avg_feat)):
+NameError: name 'trackers_avg_feat' is not defined
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.78,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5x.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '320',
+})
+
+[2024-03-04 14:49:45,453][0][INFO][generic_smbo.py:295] Iter 37, objectives: [inf, inf].
+[2024-03-04 14:49:45,454][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:50:09,689][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 782, in run_mtmc
+    if ((frame_idx - frame_list[-1] > 20) and (tid not in trackers_avg_feat)):
+NameError: name 'trackers_avg_feat' is not defined
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.88,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5x.pt',
+  'model_size_camera3': 'yolov5s.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'resolution_camera1': '320',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '320',
+  'resolution_camera4': '1280',
+})
+
+[2024-03-04 14:50:09,693][0][INFO][generic_smbo.py:295] Iter 38, objectives: [inf, inf].
+[2024-03-04 14:50:09,694][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:50:41,435][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 782, in run_mtmc
+    if ((frame_idx - frame_list[-1] > 20) and (tid not in trackers_avg_feat)):
+NameError: name 'trackers_avg_feat' is not defined
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.8,
+  'model_size_camera1': 'yolov5l.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5x.pt',
+  'model_size_camera4': 'yolov5s.pt',
+  'resolution_camera1': '640',
+  'resolution_camera2': '640',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:50:41,439][0][INFO][generic_smbo.py:295] Iter 39, objectives: [inf, inf].
+[2024-03-04 14:50:41,441][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:51:17,785][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 782, in run_mtmc
+    if ((frame_idx - frame_list[-1] > 20) and (tid not in trackers_avg_feat)):
+NameError: name 'trackers_avg_feat' is not defined
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.76,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5m.pt',
+  'model_size_camera3': 'yolov5m.pt',
+  'model_size_camera4': 'yolov5l.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '1280',
+  'resolution_camera3': '1280',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:51:17,786][0][INFO][generic_smbo.py:295] Iter 40, objectives: [inf, inf].
+[2024-03-04 14:51:17,787][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
+[2024-03-04 14:51:47,830][0][ERROR][generic_smbo.py:275] Exception in objective function:
+Traceback (most recent call last):
+  File "/data1/xiayuyang/anaconda3/envs/carla/lib/python3.8/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/bo.py", line 91, in multi_camera_matching
+    accuracy, processing_time, section_json = profile(
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 864, in profile
+    mm_data, total_detect_time, total_extract_time, total_sct_time, total_pp_time, total_match_time=run_mtmc(cams_dir=cams_dir_, weights=weights_, imgsz=imgsz_, cams_ratio=cams_ratio_, lazy_threshold=lazy_threshold_)
+  File "/data1/xiayuyang/online_mcmt/detector/yolov5/S13_mcmt.py", line 782, in run_mtmc
+    if ((frame_idx - frame_list[-1] > 20) and (tid not in trackers_avg_feat)):
+NameError: name 'trackers_avg_feat' is not defined
+
+config: Configuration(values={
+  'fps_camera1': '1',
+  'fps_camera2': '1',
+  'fps_camera3': '1',
+  'fps_camera4': '1',
+  'lazy_threshold': 0.8,
+  'model_size_camera1': 'yolov5m.pt',
+  'model_size_camera2': 'yolov5l.pt',
+  'model_size_camera3': 'yolov5l.pt',
+  'model_size_camera4': 'yolov5x.pt',
+  'resolution_camera1': '1280',
+  'resolution_camera2': '640',
+  'resolution_camera3': '640',
+  'resolution_camera4': '640',
+})
+
+[2024-03-04 14:51:47,831][0][INFO][generic_smbo.py:295] Iter 41, objectives: [inf, inf].
+[2024-03-04 14:51:47,832][0][WARNING][generic_advisor.py:375] No enough successful initial trials! Sample random configuration.
