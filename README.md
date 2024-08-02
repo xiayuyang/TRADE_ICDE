@@ -1,4 +1,4 @@
-# [TRADE: Scalable Configuration Tuning for Resouece-efficient Cross-camera Video Processing]
+# [TRADE: Scalable Configuration Tuning for Resource-efficient Cross-camera Video Processing]
 
 ![image](/figure/frame.png)
 
