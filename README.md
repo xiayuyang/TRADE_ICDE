@@ -35,7 +35,7 @@ $ conda activate env_name
 
 # clone the repo and install the required dependency.
 $ git clone  https://github.com/xiayuyang/TRADE_ICDE.git
-$ pip install -r requirements.txt
+$ pip install -r ./TRADE-main/requirements.txt
 
 # run the single-camera tuning and cross-camera tuning
 $ python ./TRADE-main/detector/yolov5/s_bo.py
